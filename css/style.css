@@ -38,3 +38,38 @@
 
 .bg-red { background-color: red}
 .bg-green { background-color: green}
+
+
+
+
+
+
+.img-box img {
+    height: 300px;
+    width: 100%;
+}
+
+.img-box img:hover {
+    transform: scale(1.4);
+}
+
+.detail {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+    background: rgba(0,0,0,0.3);
+}
+
+.content {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
